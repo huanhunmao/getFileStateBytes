@@ -1,0 +1,61 @@
+{
+    "name": "getFileStateBytes",
+    "displayName": "getFileStateBytes",
+    "description": "",
+    "version": "1.0.7",
+    "publisher": "Marxu",
+    "engines": {
+      "vscode": "^1.82.0"
+    },
+    "categories": [
+      "Other"
+    ],
+     "activationEvents": [
+        "onCommand:getFileStateBytes"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "getFileStateBytes",
+                "title": "File State"
+            }
+        ],
+        "menus": {
+            "editor/context": [
+                {
+                    "when": "editorFocus",
+                    "command": "getFileStateBytes",
+                    "group": "navigation"
+                }
+            ],
+            "explorer/context": [
+                {
+                    "command": "getFileStateBytes",
+                    "group": "navigation"
+                }
+            ]
+        }
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/huanhunmao/useStateCopier"
+    },
+    "license": "MIT",
+    "scripts": {
+      "lint": "eslint .",
+      "pretest": "npm run lint",
+      "test": "node ./test/runTest.js",
+      "watch": "watch 'npm run lint' src"
+    },
+    "devDependencies": {
+      "@types/vscode": "^1.82.0",
+      "@types/mocha": "^10.0.1",
+      "@types/node": "16.x",
+      "eslint": "^8.47.0",
+      "glob": "^10.3.3",
+      "mocha": "^10.2.0",
+      "typescript": "^5.1.6",
+      "@vscode/test-electron": "^2.3.4"
+    }
+  }
