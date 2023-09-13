@@ -1,5 +1,5 @@
-# useStateCopier
+# getFileStateBytes
 
-## Automatically copy variable names in React useState declarations.
+## Automatically get the byes of each files
 
-Eg: const [count, setCount] = useState(0), command + c + count --> command + v --> setCount
+Eg: interesting !
