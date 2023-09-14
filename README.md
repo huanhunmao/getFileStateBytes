@@ -4,5 +4,4 @@
 
 Eg: interesting !
 
-
-![image]([https://github.com/huanhunmao/getFileStateBytes_vscodePlugin/blob/master/demo_process.gif]
+![demo](https://github.com/huanhunmao/getFileStateBytes_vscodePlugin/blob/master/demo_process.gif)
