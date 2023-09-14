@@ -39,7 +39,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "https://github.com/huanhunmao/useStateCopier"
+      "url": "https://github.com/huanhunmao/getFileStateBytes_vscodePlugin"
     },
     "license": "MIT",
     "scripts": {
