@@ -3,7 +3,7 @@
     "displayName": "getFileStateBytes",
     "description": "",
     "version": "1.0.7",
-    "publisher": "Marxu",
+    "publisher": "getFileStateBytes",
     "engines": {
       "vscode": "^1.82.0"
     },
