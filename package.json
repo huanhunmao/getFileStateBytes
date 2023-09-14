@@ -2,7 +2,7 @@
     "name": "getFileStateBytes",
     "displayName": "getFileStateBytes",
     "description": "",
-    "version": "1.0.7",
+    "version": "1.0.9",
     "publisher": "getFileStateBytes",
     "engines": {
       "vscode": "^1.82.0"
